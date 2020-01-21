@@ -1,0 +1,131 @@
+body {
+	line-height: 1;
+	height: 100%;
+	font-family: Arial;
+	font-size: 15px;
+	color: #313e47;
+  text-align: center;
+  background: url("point-bg.png");
+}
+
+.upsell {
+  width: 1300px;
+  height: 430px;
+  margin: auto;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.block {
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-left: 25px;
+  background-color: white;
+}
+
+.block:hover {
+  border: 1px solid #0bacd3;
+}
+
+.price-old {
+  text-decoration: line-through;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.price-new {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h3 {
+  text-decoration: none;
+}
+
+img {
+  width: 185px;
+  height: 247px;
+}
+
+
+/* Базовые стили кнопок */
+.btn {
+display: inline-block;
+margin-top: 10px;
+box-shadow: 1px 1px 5px #888888;
+padding: 6px 12px;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+text-decoration: none;
+}
+/* Мини кнопки */
+.btn-xs{
+border-radius: 3px;
+font-size: 12px;
+padding: 1px 5px;
+line-height: 1.5;
+}
+ /* Маленькие кнопки */
+.btn-sm{
+padding: 5px 10px;
+font-size: 12px;
+line-height: 1.5;
+border-radius: 3px;
+text-transform: uppercase;
+}
+/* Стандартные кноки */
+.btn-md{
+ text-transform: uppercase;
+}
+/* Большие кнопки */
+.btn-lg {
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.33;
+border-radius: 6px;
+text-transform: uppercase;
+}
+/* Синий оттенок кнопок */
+.btn-sky {
+color: #fff;
+background-color: #0bacd3;
+border-bottom:2px solid #098aa9;
+}
+/* Синяя кнопка при наведении */
+.btn-sky:hover, .btn-sky:focus {
+color: #fff;
+background-color: #29b6d8;
+border-bottom:2px solid #2192ad;
+outline: none;
+}
+/* Синяя кнопка при нажатии */
+.btn-sky:active {
+color: #fff;
+background-color: #0a97b9;
+border-top:2px solid #087994;
+outline-offset: none;
+margin-top: 2px;
+}
+/* Убираем рамку при фокусе на кнопках */
+.btn:focus,
+.btn:active:focus {
+outline: none;
+outline-offset: 0px;
+}
